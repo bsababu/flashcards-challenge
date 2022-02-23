@@ -20,9 +20,9 @@ export default function NewTopicForm() {
     }
 
     // dispatch your add topic action here
-    let uniqueId = uuidv4();
+    
     dispatch(addTopic({
-      tpid: uniqueId,
+      id: uuidv4(),
       name: name,
       icon: icon
     }))

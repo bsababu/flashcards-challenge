@@ -1,16 +1,16 @@
 # About
 
-This flashcard challenge was built but incomplete by codecademy, we had to make full functional with some features.
+This flashcard challenge was built but incomplete by codecademy, we had to make it full functional with new features features.
 
-# To Run
+## To Run
 
 Run `npm start` in the project root and the app will be available on port 3000.
 
-# State
+### State
 
 The app's state is totally normalized, with slices for topics, quizzes, and cards.
 
-# Routes
+### Routes
 
 - `/new-topic` – form to create a new topic
 - `/topics` – index of all topics
@@ -19,7 +19,7 @@ The app's state is totally normalized, with slices for topics, quizzes, and card
 - `/quizzes` – index of all quizzes
 - `/quizzes/:quizId` – page for an individual quiz
 
-# To Test
+## To Test
 
 1. Create topics
 2. Create quizzes
